@@ -1,0 +1,129 @@
+# Dependencies
+node_modules/
+
+# Build & Runtime
+dist/
+build/
+*.tsbuildinfo
+.next/
+.cache/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+*.lcov
+lcov-report/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment & Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+secrets/
+**/secrets/
+*.pem
+*.key
+*.keystore
+firebase-service-account.json
+**/firebase-service-account.json
+google-services.json
+GoogleService-Info.plist
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+frontend/google-services.json
+frontend/GoogleService-Info.plist
+
+# IDE & Editor
+.idea/
+.vscode/
+.vscode-test/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.iml
+*.hprof
+
+# OS & System
+.AppleDouble
+.LSOverride
+desktop.ini
+.directory
+
+# Native Mobile Build Artifacts
+.gradle/
+.kotlin/
+.cxx/
+.m2/
+local.properties
+*.jsbundle
+
+# JDK installations (should use system or gradle-managed JDK)
+jdk*/
+jdk17-real/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+.gradletasknamecache
+
+# Android specific
+android/build/
+android/.gradle/
+android/.idea/
+android/*.iml
+android/local.properties
+
+# iOS specific
+ios/Pods/
+ios/Podfile.lock
+ios/.derived/
+ios/build/
+
+# Expo
+.eas/
+.expo/
+.expo-shared/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Metro bundler
+.metro-health-check*
+
+# Misc
+.DS_Store
+*.jsbundle
+*.bundle
+*.map
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Code index / tooling
+.tokensave/
+.claude/
+
+# Ruby (Gems, Bundler)
+Gemfile.lock
